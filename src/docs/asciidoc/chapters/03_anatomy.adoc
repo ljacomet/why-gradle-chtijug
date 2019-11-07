@@ -1,0 +1,58 @@
+[background-color="#01303a"]
+== Anatomy of a Gradle project
+
+[%notitle]
+=== Anatomy
+Gradle is based on a set of conventions.
+
+Some inherited from the history of Java build systems:
+
+* `src/main/java`
+* `src/test/resources`
+
+Others brought by Gradle:
+
+* The name of the project is the name of the containing folder
+
+=== A simple project
+
+image::simpleProject.png[]
+
+=== A multi project build
+
+image::multiProject.png[]
+
+[background-color="#01303a"]
+=== Demo
+
+[NOTE.speaker]
+--
+* Browse settings.gradle
+* Browse XML project build file
+* Browse root build file
+* Browse EhDeploy buildSrc plugin
+--
+
+=== The build file
+
+* By default, named `build.gradle(.kts)` which can be configured.
+* Describes what the build is about through configuration.
+
+=== Companion files
+
+* `settings.gradle(.kts)`: Configure the project(s) that compose the build
+* `gradle.properties`: Defines properties specific to the build, which can be overridden
+
+=== Additional build artifacts
+
+Directories:
+
+* `buildSrc`
+* `.gradle`
+* `build`
+
+=== The Gradle Wrapper
+
+[%step]
+* Bootstraps Gradle for project contributors
+* Project controls Gradle version
