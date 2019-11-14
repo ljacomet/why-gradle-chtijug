@@ -12,6 +12,6 @@ Based on specific examples, you will understand better what is possible with Gra
 
 After this session you will understand why the Grade can give you "Build happiness"!
 
-[Rendered version of the slides](https://ljacomet.github.io/why-gradle)
+[Rendered version of the slides](https://ljacomet.github.io/why-gradle-chtijug)
 
 
