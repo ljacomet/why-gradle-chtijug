@@ -4,6 +4,7 @@ plugins {
 
 presentation {
     githubUserName.set("ljacomet")
+    githubRepoName.set("why-gradle-chtijug")
 }
 
 dependencies {
